@@ -3,18 +3,20 @@ import devwebcamp from "../img/devwebcamp.png"
 import planificador from "../img/planificador.png"
 import cryptomonedas from "../img/cryptomonedas.png"
 import propinas from "../img/propinas.png"
+import uptask from "../img/uptask.png"
 
 
 
 export const db : Proyecto[] = [
     {
         id: 1,
-        name: 'DevWebCamp',
-        img: devwebcamp,
-        link: 'https://github.com/bebebo79/devwebcamp-php',
-        description: 'Proyecto con php y MVC enlace a GIT ',
-        stack : 'html| css | js | php | mysql '
+        name: 'UpTask MERN',
+        img: uptask,
+        link: 'https://up-task-frontend-six-nu.vercel.app/auth/login',
+        description: 'usuario: correo@correo.es // password: password ',
+        stack : 'Mongo | Express| React | Node.js'
     },
+    
     {
         id: 2,
         name: 'Presupuesto Familiar',
@@ -38,6 +40,14 @@ export const db : Proyecto[] = [
         link: 'https://ordencomidamaspropinareact.netlify.app/',
         description: 'Proyecto basico para useReducer ',
         stack : 'react | typescript | useReducer'
+    },
+    {
+        id: 5,
+        name: 'DevWebCamp',
+        img: devwebcamp,
+        link: 'https://github.com/bebebo79/devwebcamp-php',
+        description: 'Proyecto con php y MVC enlace a GIT ',
+        stack : 'html| css | js | php | mysql '
     },
     
 
