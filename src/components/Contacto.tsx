@@ -34,7 +34,7 @@ export default function Contacto() {
 
             </div>
             <div className="flex p-6 items-center border m-auto">
-              <Link to={'https://acrobat.adobe.com/id/urn:aaid:sc:EU:e6103819-d926-40f4-bf3e-090bdd71219d'}>
+              <Link to={'https://acrobat.adobe.com/id/urn:aaid:sc:EU:6d0fd988-5a58-402b-b445-6d7a8cccae28'}>
                 <FaFilePdf className="h-20 w-20" color="white"/>
                 <p className="text-fuchsia-700 font-bold uppercase mt-3 text-center">CV</p>
               </Link>
